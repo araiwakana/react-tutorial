@@ -10,6 +10,14 @@
   border: solid 1px #ccc;
   border-radius: 6px;
   padding: 1em;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.comment h2,
+.comment p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .comment h2 {
   margin-top: 0;
